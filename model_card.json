@@ -1,0 +1,10 @@
+{
+  "model_name": "loan-risk",
+  "version": "1",
+  "intended_use": "Internal pre-screening of consumer loan applications. Always reviewed by a human credit officer.",
+  "risk_assessment": "Risk register reviewed quarterly; high-risk per EU AI Act Annex III §5(b).",
+  "data_governance": "Source: synthetic loans dataset. Protected attribute: gender. Pseudonymised before storage.",
+  "fairness":   { "disparate_impact": 0.93, "statistical_parity_diff": -0.04 },
+  "robustness": { "fgsm_acc": 0.71, "pgd_acc": 0.68 },
+  "privacy":    { "epsilon": 2.83, "delta": 1e-5 }
+}

@@ -1,0 +1,35 @@
+# CORE venv: .venv
+# Pinned for Python 3.11. TensorFlow Privacy / ART and Flower are intentionally
+# split into requirements-tf.txt and requirements-fl.txt because their resolver
+# constraints fight with the MLOps + fairness stack when installed together.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+
+# MLOps core
+mlflow==2.16.2
+dvc[s3]==3.55.2
+boto3==1.35.36
+
+opendp==0.10.0
+
+# Fairness / Explainability
+aif360==0.6.1
+shap==0.46.0
+interpret==0.6.6
+
+# DevSecOps
+bandit==1.7.10
+pip-audit==2.7.3
+safety==3.2.9
+detect-secrets==1.5.0
+pre-commit==4.0.1
+nbqa==1.9.0
+nbstripout==0.7.1
+
+# Utils
+click==8.1.7
+python-dotenv==1.0.1
+cryptography==43.0.1

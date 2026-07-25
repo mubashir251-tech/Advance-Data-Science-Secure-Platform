@@ -1,0 +1,7 @@
+{
+  "disparate_impact": 0.312,
+  "statistical_parity_diff": -0.007,
+  "equal_opportunity_diff": -0.034,
+  "average_odds_diff": -0.019,
+  "verdict": "FAIL \u2014 disparate impact outside 0.8\u20131.25 (4/5ths rule)"
+}

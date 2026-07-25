@@ -1,0 +1,5 @@
+outs:
+- md5: e7811771b1fbec50ed61dd178c0ffd02
+  size: 109535
+  hash: md5
+  path: loans.csv

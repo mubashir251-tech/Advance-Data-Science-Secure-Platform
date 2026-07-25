@@ -1,0 +1,42 @@
+"""Differentially-private release of a mean income with OpenDP."""
+import argparse
+import pandas as pd
+import numpy as np
+import opendp.prelude as dp
+
+dp.enable_features("contrib")
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--query", default="avg_income_by_region")
+ap.add_argument("--epsilon", type=float, default=1.0)
+a = ap.parse_args()
+
+# 1) Load and clean data
+df = pd.read_csv("data/loans.csv")
+df["income"] = pd.to_numeric(df["income"], errors="coerce")
+df = df.replace([np.inf, -np.inf], np.nan).dropna(subset=["income"]).copy()
+
+data = [float(x) for x in df["income"].tolist()]
+if not data:
+    raise ValueError("No valid income values after cleaning")
+
+bounds = (15000.0, 200000.0)
+lower, upper = bounds
+n = len(data)
+
+true_mean = float(np.mean(data))
+
+if a.epsilon <= 0:
+    raise ValueError("epsilon must be > 0")
+
+# 2) Build a simple DP mean: clamp + Laplace
+# We manually clamp, then add Laplace noise to the mean.
+clamped = [min(max(x, lower), upper) for x in data]
+sensitivity = (upper - lower) / n
+scale = sensitivity / a.epsilon
+
+# Basic Laplace sampler using numpy
+noise = np.random.laplace(loc=0.0, scale=scale)
+dp_mean = float(np.mean(clamped) + noise)
+
+print(f"query={a.query}  true={true_mean:.2f}  dp(ε={a.epsilon})={dp_mean:.2f}")

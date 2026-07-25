@@ -1,0 +1,227 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬────────────────┬─────────────────┬─────────┬───────────────────┐
+│                                      Target                                      │      Type      │ Vulnerabilities │ Secrets │ Misconfigurations │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ requirements.txt                                                                 │      pip       │       21        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ scripts/requirements.txt                                                         │      pip       │       21        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/cloudformation/2010-05-15/resourc- │ cloudformation │        -        │    -    │         0         │
+│ es-1.json                                                                        │                │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/cloudwatch/2010-08-01/resources-1- │ cloudformation │        -        │    -    │         0         │
+│ .json                                                                            │                │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/dynamodb/2012-08-10/resources-1.j- │ cloudformation │        -        │    -    │         0         │
+│ son                                                                              │                │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2014-10-01/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2015-03-01/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2015-04-15/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2015-10-01/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2016-04-01/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2016-09-15/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/ec2/2016-11-15/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/glacier/2012-06-01/resources-1.js- │ cloudformation │        -        │    -    │         0         │
+│ on                                                                               │                │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/iam/2010-05-08/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/opsworks/2013-02-18/resources-1.j- │ cloudformation │        -        │    -    │         0         │
+│ son                                                                              │                │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/s3/2006-03-01/resources-1.json     │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/sns/2010-03-31/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────────┼─────────────────┼─────────┼───────────────────┤
+│ .venv/lib/python3.10/site-packages/boto3/data/sqs/2012-11-05/resources-1.json    │ cloudformation │        -        │    -    │         0         │
+└──────────────────────────────────────────────────────────────────────────────────┴────────────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+requirements.txt (pip)
+======================
+Total: 21 (HIGH: 15, CRITICAL: 6)
+
+┌──────────────┬─────────────────────┬──────────┬──────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│   Library    │    Vulnerability    │ Severity │  Status  │ Installed Version │ Fixed Version │                            Title                             │
+├──────────────┼─────────────────────┼──────────┼──────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ cryptography │ CVE-2026-26007      │ HIGH     │ fixed    │ 42.0.8            │ 46.0.5        │ cryptography: cryptography Subgroup Attack Due to Missing    │
+│              │                     │          │          │                   │               │ Subgroup Validation for SECT Curves...                       │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-26007                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ GHSA-537c-gmf6-5ccf │          │          │                   │ 48.0.1        │ Vulnerable OpenSSL included in cryptography wheels           │
+│              │                     │          │          │                   │               │ https://github.com/advisories/GHSA-537c-gmf6-5ccf            │
+├──────────────┼─────────────────────┼──────────┤          ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ mlflow       │ CVE-2025-15036      │ CRITICAL │          │ 2.17.2            │ 3.9.0rc0      │ mlflow: mlflow: Path traversal vulnerability allows          │
+│              │                     │          │          │                   │               │ arbitrary file overwrite and privilege escalation...         │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15036                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15379      │          │          │                   │ 3.8.1         │ mlflow: MLflow: Arbitrary command execution via command      │
+│              │                     │          │          │                   │               │ injection in model serving container...                      │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15379                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-0545       │          │ affected │                   │               │ mlflow/mlflow: mlflow/mlflow: Unauthenticated remote code    │
+│              │                     │          │          │                   │               │ execution via unprotected job endpoints                      │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-0545                    │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-0596       │          │ fixed    │                   │ 3.9.0         │ Mlflow: Command Injection when serving models with           │
+│              │                     │          │          │                   │               │ enable_mlserver=True                                         │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-0596                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2635       │          │          │                   │ 3.8.0rc0      │ mlflow: MLflow Use of Default Password Authentication Bypass │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2635                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2651       │          │          │                   │ 3.11.0rc1     │ github.com/mlflow/mlflow: MLflow: Arbitrary code execution   │
+│              │                     │          │          │                   │               │ via unauthorized multipart upload access                     │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2651                    │
+│              ├─────────────────────┼──────────┼──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2024-37059      │ HIGH     │ affected │                   │               │ MLFlow unsafe deserialization                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-37059                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-10279      │          │ fixed    │                   │ 3.4.0rc0      │ mlflow Creates of Temporary File in Directory with Insecure  │
+│              │                     │          │          │                   │               │ Permissions                                                  │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-10279                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-11200      │          │          │                   │ 2.22.0rc0     │ MLflow Weak Password Requirements Authentication Bypass      │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-11200                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-11201      │          │          │                   │ 3.0.0, 2.22.4 │ MLflow Tracking Server Model Creation Directory Traversal    │
+│              │                     │          │          │                   │               │ Remote Code Execution Vulnerability                          │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-11201                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-14279      │          │          │                   │ 3.5.0         │ MLFlow is vulnerable to DNS rebinding attacks due to a lack  │
+│              │                     │          │          │                   │               │ of...                                                        │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-14279                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-14287      │          │          │                   │ 3.8.0rc0      │ mlflow: MLflow: Arbitrary command execution via unsanitized  │
+│              │                     │          │          │                   │               │ container image names                                        │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-14287                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15031      │          │          │                   │ 3.9.0rc0      │ mlflow/mlflow: Path Traversal Vulnerability in mlflow/mlflow │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15031                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15381      │          │ affected │                   │               │ mlflow/mlflow: mlflow/mlflow: Information disclosure and     │
+│              │                     │          │          │                   │               │ unauthorized data modification via unprotected tracing       │
+│              │                     │          │          │                   │               │ and...                                                       │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15381                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2033       │          │ fixed    │                   │ 3.8.0rc0      │ mlflow: MLflow Tracking Server Artifact Handler Directory    │
+│              │                     │          │          │                   │               │ Traversal Remote Code Execution Vulnerability...             │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2033                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2393       │          │          │                   │ 3.9.0         │ MLflow Has a Server-Side Request Forgery (SSRF)              │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2393                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2614       │          │          │                   │ 3.10.0        │ mlflow: mlflow: Arbitrary file read via bypassed source path │
+│              │                     │          │          │                   │               │ validation                                                   │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2614                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2652       │          │          │                   │ 3.11.0        │ MLflow: unauthenticated access to certain FastAPI routes     │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2652                    │
+│              ├─────────────────────┤          │          │                   │               ├──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-4137       │          │          │                   │               │ MLFlow Creates a Temporary File With Insecure Permissions    │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-4137                    │
+└──────────────┴─────────────────────┴──────────┴──────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+
+scripts/requirements.txt (pip)
+==============================
+Total: 21 (HIGH: 15, CRITICAL: 6)
+
+┌──────────────┬─────────────────────┬──────────┬──────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│   Library    │    Vulnerability    │ Severity │  Status  │ Installed Version │ Fixed Version │                            Title                             │
+├──────────────┼─────────────────────┼──────────┼──────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ cryptography │ CVE-2026-26007      │ HIGH     │ fixed    │ 42.0.8            │ 46.0.5        │ cryptography: cryptography Subgroup Attack Due to Missing    │
+│              │                     │          │          │                   │               │ Subgroup Validation for SECT Curves...                       │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-26007                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ GHSA-537c-gmf6-5ccf │          │          │                   │ 48.0.1        │ Vulnerable OpenSSL included in cryptography wheels           │
+│              │                     │          │          │                   │               │ https://github.com/advisories/GHSA-537c-gmf6-5ccf            │
+├──────────────┼─────────────────────┼──────────┤          ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ mlflow       │ CVE-2025-15036      │ CRITICAL │          │ 2.17.2            │ 3.9.0rc0      │ mlflow: mlflow: Path traversal vulnerability allows          │
+│              │                     │          │          │                   │               │ arbitrary file overwrite and privilege escalation...         │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15036                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15379      │          │          │                   │ 3.8.1         │ mlflow: MLflow: Arbitrary command execution via command      │
+│              │                     │          │          │                   │               │ injection in model serving container...                      │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15379                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-0545       │          │ affected │                   │               │ mlflow/mlflow: mlflow/mlflow: Unauthenticated remote code    │
+│              │                     │          │          │                   │               │ execution via unprotected job endpoints                      │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-0545                    │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-0596       │          │ fixed    │                   │ 3.9.0         │ Mlflow: Command Injection when serving models with           │
+│              │                     │          │          │                   │               │ enable_mlserver=True                                         │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-0596                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2635       │          │          │                   │ 3.8.0rc0      │ mlflow: MLflow Use of Default Password Authentication Bypass │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2635                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2651       │          │          │                   │ 3.11.0rc1     │ github.com/mlflow/mlflow: MLflow: Arbitrary code execution   │
+│              │                     │          │          │                   │               │ via unauthorized multipart upload access                     │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2651                    │
+│              ├─────────────────────┼──────────┼──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2024-37059      │ HIGH     │ affected │                   │               │ MLFlow unsafe deserialization                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-37059                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-10279      │          │ fixed    │                   │ 3.4.0rc0      │ mlflow Creates of Temporary File in Directory with Insecure  │
+│              │                     │          │          │                   │               │ Permissions                                                  │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-10279                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-11200      │          │          │                   │ 2.22.0rc0     │ MLflow Weak Password Requirements Authentication Bypass      │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-11200                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-11201      │          │          │                   │ 3.0.0, 2.22.4 │ MLflow Tracking Server Model Creation Directory Traversal    │
+│              │                     │          │          │                   │               │ Remote Code Execution Vulnerability                          │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-11201                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-14279      │          │          │                   │ 3.5.0         │ MLFlow is vulnerable to DNS rebinding attacks due to a lack  │
+│              │                     │          │          │                   │               │ of...                                                        │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-14279                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-14287      │          │          │                   │ 3.8.0rc0      │ mlflow: MLflow: Arbitrary command execution via unsanitized  │
+│              │                     │          │          │                   │               │ container image names                                        │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-14287                   │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15031      │          │          │                   │ 3.9.0rc0      │ mlflow/mlflow: Path Traversal Vulnerability in mlflow/mlflow │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15031                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2025-15381      │          │ affected │                   │               │ mlflow/mlflow: mlflow/mlflow: Information disclosure and     │
+│              │                     │          │          │                   │               │ unauthorized data modification via unprotected tracing       │
+│              │                     │          │          │                   │               │ and...                                                       │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-15381                   │
+│              ├─────────────────────┤          ├──────────┤                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2033       │          │ fixed    │                   │ 3.8.0rc0      │ mlflow: MLflow Tracking Server Artifact Handler Directory    │
+│              │                     │          │          │                   │               │ Traversal Remote Code Execution Vulnerability...             │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2033                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2393       │          │          │                   │ 3.9.0         │ MLflow Has a Server-Side Request Forgery (SSRF)              │
+│              │                     │          │          │                   │               │ Vulnerability                                                │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2393                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2614       │          │          │                   │ 3.10.0        │ mlflow: mlflow: Arbitrary file read via bypassed source path │
+│              │                     │          │          │                   │               │ validation                                                   │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2614                    │
+│              ├─────────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-2652       │          │          │                   │ 3.11.0        │ MLflow: unauthenticated access to certain FastAPI routes     │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-2652                    │
+│              ├─────────────────────┤          │          │                   │               ├──────────────────────────────────────────────────────────────┤
+│              │ CVE-2026-4137       │          │          │                   │               │ MLFlow Creates a Temporary File With Insecure Permissions    │
+│              │                     │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2026-4137                    │
+└──────────────┴─────────────────────┴──────────┴──────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
