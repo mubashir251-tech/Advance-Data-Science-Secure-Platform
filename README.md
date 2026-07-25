@@ -1,6 +1,6 @@
 # Advance-Data-Science-Secure-Platform
 =======
-# Advanced Data Science Platform Security Lab
+# Advanced Data Science Platform Security
 **Topic 122 – EduQual L6 (Diploma in AI Operations)**
 *MLOps Integration · Model Governance · AI Ethics Enforcement*
 
