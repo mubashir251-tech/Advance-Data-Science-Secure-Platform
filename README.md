@@ -5,12 +5,12 @@
 *MLOps Integration · Model Governance · AI Ethics Enforcement*
 
 This repository is a single, runnable lab that demonstrates every key learning
-objective from my exam brief using **only open-source tools**.  this entire lab
+objective from my exam brief using **only open-source tools**.  this entire project
 runable on a laptop (8 GB RAM is enough) with Docker.
 
 ---
 
-## 0. Architecture (what you'll show on the first slide)
+## 0. Architecture
 
 ```
             ┌──────────────────────────────────────────────────────────┐
@@ -29,7 +29,7 @@ runable on a laptop (8 GB RAM is enough) with Docker.
                                                          / ISO 42001 checks)
 ```
 
-Six objective areas → six folders → six demos you can run on stage.
+Six objective areas → six folders → six demos to run on stage.
 
 | # | Objective                                | Folder           | Tools                                    |
 |---|------------------------------------------|------------------|------------------------------------------|
@@ -51,14 +51,14 @@ docker compose version    # v2
 python3 --version         # >= 3.10
 ```
 
-That's it. Everything else runs inside containers or in a `venv`.
+That's it. Everything else runs inside containers or in `venv`.
 
 ---
 
 ## 2. One-time bootstrap
 
 ```bash
-cd mlops-sec-lab
+cd Advance-DS-Platform-Sec
 bash scripts/bootstrap.sh
 ```
 
