@@ -35,9 +35,9 @@ Six objective areas → six folders → six demos to run on stage.
 |---|------------------------------------------|------------------|------------------------------------------|
 | 1 | Secure MLOps pipeline & lifecycle        | `pipelines/`     | MLflow, DVC, Airflow, MinIO              |
 | 2 | Governance & bias detection              | `governance/`    | AI Fairness 360, InterpretML, SHAP       |
-| 3 | Privacy & federated learning             | `privacy/`       | OpenDP, TensorFlow Privacy, PySyft, Faker|
+| 3 | Privacy & federated learning             | `privacy/`       | OpenDP, TensorFlow Privacy, PySyft,      |
 | 4 | Adversarial / poisoning protection       | `adversarial/`   | Adversarial Robustness Toolbox (ART)     |
-| 5 | DevSecOps for data science               | `devsecops/`     | Bandit, Safety, pip-audit, trivy, gitleaks |
+| 5 | DevSecOps for data science               | `devsecops/`     | Bandit, Safety, pip-audit, trivy,        |
 | 6 | Compliance & ethical AI automation       | `compliance/`    | OPA/Rego policies, audit log, RMF mapping|
 
 ---
@@ -45,7 +45,7 @@ Six objective areas → six folders → six demos to run on stage.
 ## 1. Prerequisites
 
 ```bash
-# Linux / macOS / WSL2
+# Linux 
 docker --version          # >= 24
 docker compose version    # v2
 python3 --version         # >= 3.10
